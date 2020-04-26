@@ -65,7 +65,7 @@ rotulo_dados(plt.bar(rp - (largura_barra / 2), vlr_mercado1,
 rotulo_dados(plt.bar(rp + (largura_barra / 2), vlr_mercado2,
                      label='Mercado B', color='brown', width=largura_barra, tick_label=produtos))
 
-# Encaixa o sugráfico na área da figura
+# Encaixa o sub-gráfico na área da figura
 plt.tight_layout()
 
 # Inseri a legenda no gráfico
