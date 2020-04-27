@@ -53,4 +53,5 @@ plt.ylabel(eixoY)
 
 # Constrói e mostra o gráfico
 plt.plot(anos, taxa, color='green', linestyle='dashed')
+plt.grid(linestyle='--', which='major', color='grey', alpha=.25)
 plt.show()
