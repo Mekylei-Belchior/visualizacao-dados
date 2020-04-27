@@ -36,8 +36,8 @@ dados['Crescimento'] = dados['Crescimento'].astype('float64')
 plt.figure(figsize=(12, 5))
 
 # Definição do período de análise
-p_anos = dados['Ano'][1:]
-p_taxa = dados['Crescimento'][1:]
+anos = dados['Ano'][1:]
+taxa = dados['Crescimento'][1:]
 
 # Define o título do gráfico e rótulos dos eixos
 titulo = 'Crescimento Populacional (1952 - 2020)'
@@ -52,5 +52,5 @@ plt.xlabel(eixoX)
 plt.ylabel(eixoY)
 
 # Constrói e mostra o gráfico
-plt.plot(p_anos, p_taxa, color='green', linestyle='dashed')
+plt.plot(anos, taxa, color='green', linestyle='dashed')
 plt.show()
