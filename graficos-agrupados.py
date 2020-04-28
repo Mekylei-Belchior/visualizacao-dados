@@ -77,12 +77,15 @@ filmes['renda'] = filmes['renda'].astype('float64')
 
 # Top 10 filmes mais rentáveis
 top5_filmes = filmes.groupby(['titulo'])['renda'].sum().nlargest(5) / 1000000
+
 # Top 10 anos mais rentáveis
 top10_anos = filmes.groupby(['ano_exibicao'])[
     'renda'].sum().nlargest(10) / 1000000
 
+# Representatividade por origem
 origem = filmes.groupby(['origem'])['renda'].sum() / 1000000
 
+# Público por ano
 publico = filmes.groupby('ano_exibicao')['publico'].sum() / 1000000
 
 """ GRÁFICOS """
