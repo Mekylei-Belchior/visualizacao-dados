@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 # GRÁFICO DE BARRAS COMPARAÇÃO
 #
 #

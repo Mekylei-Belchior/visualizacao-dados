@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 # GRAFICOS AGRUPADOS EM UM ÚNICO GRID
 #
 #
